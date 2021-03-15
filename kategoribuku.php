@@ -88,7 +88,7 @@
               </thead>
               <tbody>
                 <?php
-                $batas = 2;
+                $batas = 6;
                 if (!isset($_GET['halaman'])) {
                   $posisi = 0;
                   $halaman = 1;
