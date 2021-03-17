@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <?php
 session_start();
 include('koneksi/koneksi.php');
@@ -12,8 +14,6 @@ if (isset($_GET['data'])) {
   }
 }
 ?>
-<!DOCTYPE html>
-<html>
 
 <head>
   <?php include("includes/head.php") ?>
